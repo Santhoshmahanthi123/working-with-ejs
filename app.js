@@ -22,7 +22,7 @@ app.get('/:thing/:about/:contact',function(req,res){
 });
 
 app.get('*',function(req,res){
-    console.log("Searching page is not available!");
+    console.log("Your Searching page is not available!");
     res.send("<h1>Page not available!</h1>");
 });
 app.listen(3000,function(){
