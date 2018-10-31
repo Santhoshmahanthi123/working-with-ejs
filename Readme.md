@@ -1,0 +1,1 @@
+This project basically tells about how to work with Embedded Java Script (EJS).

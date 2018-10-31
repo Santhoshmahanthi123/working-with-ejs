@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+  <title>Add Comments</title>
+</head>
+<body class="dark">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <header class="light">
+
+   <center> <h1>Neque Porro Quisquam</h1></center>
+   
+  </header>
+  <section>
+      <nav>
+          <ul>
+            <li><a href="home.ejs">Home Page</a></li>
+            <li><a href="/home.ejs/aboutme.ejs">About me</a></li>
+            <li><a href="/home.ejs/aboutme.ejs/contact.ejs">Contact me</a></li>
+           
+          </ul>
+        </nav>
+  <main role="main">
+    <article class="container">
+      <h2>Est Qui Dolorem Ipsum</h2>
+      <p class="para">
+        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+        Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean
+        lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra
+        augue. Integer bibendum tellus in tellus vulputate, sed dictum magna ornare.
+        In semper sed risus id bibendum. Donec sem purus, porttitor eu lorem nec,
+        tempor ultrices felis. Pellentesque ac interdum ipsum, non laoreet ipsum.
+        Donec consectetur libero in odio sagittis dignissim. Donec tincidunt sapien
+        ac diam cursus porttitor. Nunc aliquet nulla quis sagittis consectetur. Etiam
+        at orci ac dui commodo dictum.
+      </p>
+      <p class="pa">
+        Nam ultricies nulla magna, quis iaculis nisi lacinia non. Duis malesuada
+        commodo pulvinar. Mauris velit mi, rutrum ut risus id, lacinia feugiat justo.
+        Duis suscipit ligula ut nunc mattis congue. Sed facilisis tristique dictum.
+        Maecenas laoreet congue urna, a interdum dolor. Donec et enim vitae mauris
+        cursus ultrices consequat eget nisi. Integer dui enim, porttitor non venenatis
+        ultrices, scelerisque et ante. Quisque eget sem in massa laoreet fringilla
+        eget in erat.
+      </p>
+      <hr size="10  ">
+      <section class="comments">
+        <h3>Comments</h3>
+        <ul id="comment_list">
+          <li class="comment">
+            <article>
+              <p class="p4">
+                Nam ultricies nulla magna, quis iaculis nisi lacinia non. Duis malesuada
+                commodo pulvinar. Mauris velit mi, rutrum ut risus id, lacinia feugiat
+                justo. Duis suscipit ligula ut nunc mattis congue. Sed facilisis tristique
+                dictum. Maecenas laoreet congue urna, a interdum dolor.
+              </p>
+             
+              <span class="author">Agrippina Julia</span>
+              <hr size="5 ">
+            </article>
+          </li>
+          <li class="comment">
+            <article>
+              <p class="p1">
+                Sociis natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus. Curabitur ut mi ex. Vestibulum sed eleifend tellus. Cras
+                facilisis quam nec nisl aliquet, in vehicula quam faucibus. Nulla tincidunt
+                facilisis ipsum, id pulvinar augue ullamcorper in. Mauris volutpat tempus
+                odio non consequat. Curabitur vel ligula ac ipsum laoreet tincidunt. Nulla
+                sodales tristique nisi ac congue. Integer condimentum egestas mi, semper
+                pretium massa aliquet ut.
+              </p>
+              <span class="author">Gratiana Faustus</span>
+              <hr size="5 ">
+            </article>
+          </li>
+          <li class="comment">
+            <article>
+              <p class="p2">
+                In ante diam, ultrices at leo vitae, viverra congue sem. Phasellus nulla ex,
+                vestibulum non semper laoreet, varius vitae nunc. Integer hendrerit sit amet
+                nisi ut fermentum. Ut sapien nisl, pulvinar in aliquam ultricies, consectetur
+                eget ex. Fusce at neque quis dui consequat ultrices eget eget sapien. Cras
+                dolor arcu, consectetur vel augue at, vestibulum ultricies velit.
+              </p>
+              <span class="author">Laurentinus Aquilinus</span>
+              <hr size="5 ">
+            </article>
+          </li>
+        </ul>
+        
+        <button id="new_comment_button" class="button center">New Comment</button>
+        <form id="new_comment_form" class="center hidden">
+          <label for="comment_text">Comment:</label>
+          <textarea id="comment_text" name="comment_text" class="text"></textarea>
+          <br>  
+          <label for="commenter_name" class="l2"><i>Name:</i></label>
+          <input type="text" id="commenter_name" name="commenter_name" class="cname">
+          <br>
+          <input type="submit" class="button" value="Submit Comment" id="btn1">
+        </form>
+      </section>
+    </article>
+  </main>
+  <!-- Include JavaScript files -->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="comments.js"></script>
+</section>
+
+</body>
+</html>
